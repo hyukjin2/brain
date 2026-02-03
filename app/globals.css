@@ -1,0 +1,133 @@
+:root {
+  color-scheme: light;
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  background-color: #f5f7fb;
+  color: #1d2433;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 32px 24px 64px;
+}
+
+header {
+  background: #0f1c3f;
+  color: #ffffff;
+  padding: 16px 24px;
+}
+
+header nav {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.page-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.control-panel {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+  background: #ffffff;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 12px 24px rgba(15, 28, 63, 0.08);
+}
+
+.control-panel label {
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  font-weight: 600;
+  gap: 6px;
+  color: #3b4458;
+}
+
+.control-panel select,
+.control-panel button {
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid #ccd3e0;
+  font-size: 14px;
+}
+
+.button-group {
+  display: flex;
+  gap: 8px;
+  align-items: flex-end;
+}
+
+.button-group button {
+  background: #1b4db1;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.button-group button.secondary {
+  background: #edf1fb;
+  color: #1b4db1;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 8px 16px rgba(15, 28, 63, 0.08);
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.badge.success {
+  background: #e6f6ed;
+  color: #1a7f4b;
+}
+
+.badge.warning {
+  background: #fff4e6;
+  color: #ad5f00;
+}
+
+.chart-card {
+  background: #ffffff;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 12px 24px rgba(15, 28, 63, 0.08);
+}
+
+.helper-text {
+  font-size: 13px;
+  color: #5b6475;
+}
